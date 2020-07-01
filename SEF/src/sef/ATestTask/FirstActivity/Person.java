@@ -13,7 +13,7 @@ public class Person {
 		this.firstName="Unknown";
 		this.secondName = "Unknown";
 		this.age = 0;
-		System.out.println("I'm Person constructor");
+//		System.out.println("I'm Person constructor inside Person class");
 	}
 
 	//Behavior - parameterized constructor

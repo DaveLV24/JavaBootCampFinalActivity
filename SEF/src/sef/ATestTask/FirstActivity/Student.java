@@ -32,9 +32,8 @@ public class Student extends Person {
 			this.school = school;
 		}
 	//method for introduce person ->
-		public void announce(){
-			super.announce();  // calls announce() method of Person class
-			System.out.println("I study in " + getSchool());
+		public String announce() {
+			return "Hey! my name is  " + getFirstName() + " and i study in " + getSchool();
 		}
 			
 }

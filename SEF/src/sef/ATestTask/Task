@@ -14,12 +14,12 @@ Tasks
    I am work as <jobTitle> in <company>"
 
 3) in file Student
-  3.1 Create file students from scratch
-  3.2 Add method for introduce of person ->
+  3.1 Create file students from scratch  //
+  3.2 Add method for introduce of person ->//
         "I am study in university <schoolName>"
 
-4) in file FirstActivity
-  4.1 create few employees
+4) in file FirstActivity          //
+  4.1 create few employees    //
   4.2 try to print them from top salary to less
 
 5) Create unit test for ALL classes (example in EmployeeTest)

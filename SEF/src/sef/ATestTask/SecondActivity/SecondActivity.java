@@ -37,4 +37,3 @@ public class SecondActivity {
 
 	//TODO create the Calculator (here or in additional class)
 
-}

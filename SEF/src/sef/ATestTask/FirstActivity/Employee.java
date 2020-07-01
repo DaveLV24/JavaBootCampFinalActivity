@@ -1,7 +1,9 @@
 package sef.ATestTask.FirstActivity;
 
+import java.util.Comparator;
+
 // this class is sub class of Person class
-public class Employee extends Person {
+public class Employee extends Person implements Comparator<Employee> {
 
 	//Attributes
     private int empId;
@@ -11,7 +13,7 @@ public class Employee extends Person {
 
     //TODO 1 create different constructors
     public Employee(){
-    	System.out.println("I'm Employee constructor");
+//    	System.out.println("I'm Employee constructor");
     }
 
     //TODO 2 add getters and setters
@@ -54,6 +56,7 @@ public class Employee extends Person {
 		System.out.println("My name is " + getFirstName() + " and i am " + getAge() + " years old " +
 				   " I work as "+  getJobTitle() + " in " + getCompanyName());
 	}
+	//@Override
 
 
 }
