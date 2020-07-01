@@ -5,7 +5,6 @@ import org.junit.Test;
 
 public class SecondActivityTest extends TestCase {
 
-
 	//TODO try to achieve 100% of test coverage
 
 	private SecondActivity theCalculator;

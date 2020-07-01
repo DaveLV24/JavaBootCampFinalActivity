@@ -1,19 +1,19 @@
 
 Tasks
 
-1) in file Person
-  1.1 Based on code implement Person attributes
-  1.2 Add method for introduce of person ->
-   "My name is <name> and i am <age> years old"
+1) in file Person                                           //
+  1.1 Based on code implement Person attributes     //
+  1.2 Add method for introduce of person ->                 //
+   "My name is <name> and i am <age> years old" 
 
 2) In file Employee
-  2.1 Add different constructors
-  2.2 Add getters and setters
-  2.3 Add method for introduce of person ->
+  2.1 Add different constructors                    //
+  2.2 Add getters and setters                       //
+  2.3 Add method for introduce of person ->          
   "My name is <name> and i am <age> years old
    I am work as <jobTitle> in <company>"
 
-3) in file Students
+3) in file Student
   3.1 Create file students from scratch
   3.2 Add method for introduce of person ->
         "I am study in university <schoolName>"

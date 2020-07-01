@@ -4,8 +4,29 @@ public class SecondActivity {
 
 	public static void main(String[] args) {
 		SecondActivity calculator = new SecondActivity();
+		System.out.println("success");
+    }
+		class MyCalculator {
+			
+			public int getSum(int a, int b) {
+				
+				return a + b;
+			}
+			
+			public int getDifference(int a, int b){
+				return a - b;
+			}
+			
+			public double getProduct(double a, double b){
+				return a * b;
+			}
+			
+			public double getQuotient(double a, double b){
+				return a / b;
+			}
+		}
 
-
+		
 		//TODO Use the calculator to calculate different values
 		//Example ->
 		//calculator.sum(10.2, 5);

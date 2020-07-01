@@ -1,15 +1,19 @@
 package sef.ATestTask.FirstActivity;
 
-
+//superclass?
 public class Person {
 
 //TODO 1 Implement Person Attributes
-
+	private String firstName;
+	private String secondName;
+	private int age;
+	
 	//Behavior - default constructor
 	public Person(){
 		this.firstName="Unknown";
 		this.secondName = "Unknown";
 		this.age = 0;
+		System.out.println("I'm Person constructor");
 	}
 
 	//Behavior - parameterized constructor
@@ -48,7 +52,7 @@ public class Person {
 
 	//TODO 2 add all person info into announce() method
 	public String announce() {
-		return "I am " + getFirstName() + " " + getSecondName();
+		return "I am " + getFirstName() + " " + getSecondName() + " and " + getAge() + " years old";
 	}
 }
 
